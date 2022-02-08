@@ -1,5 +1,6 @@
 .headingLeft {
 	font-family: 'Open Sans', sans-serif;
+	word-wrap: break-word;
 	text-align: center;
 	vertical-align: middle;
 	font-size: 350%;
