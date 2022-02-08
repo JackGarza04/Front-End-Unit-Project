@@ -22,6 +22,24 @@
 	margin-left: 20px;
 }
 
+/*Small underline for the heading*/
+.underline-small{
+	color: black;
+	position: relative;
+}
+
+.underline-small::after{
+	content: '';
+	height: 3px;
+	width: 12%;
+	background: black;
+	position: absolute;
+	margin: auto;
+	bottom: -5px;
+	left: 0; 
+	right: 0;
+}
+
 .text {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
