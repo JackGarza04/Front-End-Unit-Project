@@ -23,6 +23,11 @@
 	margin-left: 20px;
 }
 
+.margin {
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
 /*Small underline for the heading*/
 .underline-small{
 	color: black;
@@ -51,8 +56,8 @@
 }
 
 .carousel-inner img {
-	width: 90%;
-	margin: auto;
+	width: 100%;
+	margin: 5px;
 }
 
 img {
