@@ -1,18 +1,17 @@
 $(document).ready(function() {
-	// create references to the modal...
+	//Create references to the modal
 	var modal = document.getElementById("myModal");
-	// to all images -- note I'm using a class!
+	//Create references to all images
 	var images = document.getElementsByClassName("myImages");
-	// the image in the modal
+	//The image in the modal
 	var modalImg = document.getElementById("img01");
-	// and the caption in the modal
+	//The caption in the modal
 	var captionText = document.getElementById("caption");
 
-	// Go through all of the images with our custom class
+	// Go through all of the images with custom class
 	for (var i = 0; i < images.length; i++) 
 	{
 		var img = images[i];
-		// and attach our click listener for this image.
 		img.onclick = function(evt) {
 			modal.style.display = "block";
 			modalImg.src = this.src;
