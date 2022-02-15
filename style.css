@@ -109,11 +109,11 @@ img {
 	z-index: 1000;
 }
 #toTop::after {
-	content: "\21E7";
+	content: "↑";
 	font-family: 'Open Sans', sans-serif;
-	font-weight: normal;
+	font-weight: bold;
 	font-style: normal;
-	font-size: 90%;
+	font-size: 200%;
 	line-height: 50px;
 	color: #fff;
 }
@@ -125,7 +125,7 @@ img {
 	background-color: #555;
 }
 #toTop.show {
-	opacity: 0.6;
+	opacity: 1.0;
 	visibility: visible;
 }
 
