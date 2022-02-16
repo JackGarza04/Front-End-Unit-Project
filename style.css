@@ -23,6 +23,16 @@
 	margin-left: 20px;
 }
 
+.heading {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	vertical-align: top;
+	font-size: 350%;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-weight: 500;
+}
+
 .margin {
 	margin-right: 50px;
 	margin-left: 50px;
